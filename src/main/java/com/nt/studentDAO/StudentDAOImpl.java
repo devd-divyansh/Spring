@@ -73,7 +73,7 @@ public StudentDAOImpl() {
 					e.printStackTrace();
 				}
 				try {
-					record = pstmt.executeUpdate();
+          int					record = pstmt.executeUpdate();
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
